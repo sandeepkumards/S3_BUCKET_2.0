@@ -1,11 +1,10 @@
 body {
     padding-top: 50px;
     font-size:14px; line-height:1.5; font-family:'Roboto', Arial, sans-serif; color:#565a5c;-webkit-font-smoothing: antialiased;
-
   }
   #body-content{
 
-    font: 300 16px/28px 'Hind', sans-serif;
+    font: 300 14px/26px 'Hind', sans-serif;
     letter-spacing: 0.25px;
 
   }
@@ -641,7 +640,7 @@ and open the template in the editor.
 #carousel-example-generic .top-caption {
   position: absolute;
   top: 20%;
-  margin-top: -104px;
+  margin-top: -91px;
   left: 0;
   right: 0;
   text-align: center;
@@ -696,14 +695,14 @@ top-caption .btn-start {
 
 #carousel-example-generic .caption h1 {
   color: #fff;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
 #carousel-example-generic .caption h2 {
   color: #fff;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -886,7 +885,7 @@ caption .btn-start {
 	color:#333;
 	margin:5px 0 0 0;
 	font-family: 'Gochi Hand', cursive;
-	font-size:32px;
+	font-size:24px;
 }
 
 a.btn_quote{
