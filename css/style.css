@@ -948,7 +948,7 @@ a.btn_quote:hover{
 	margin:12px 0 15px 0;
 }
 #contact_bg{
-	background:url(../img/map_footer.png) no-repeat bottom center;
+	background:no-repeat bottom center;
 }
 ul#contact_details_footer{
 	list-style:none;
