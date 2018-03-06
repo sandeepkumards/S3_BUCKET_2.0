@@ -223,19 +223,35 @@ a.socialIcon:hover, .socialHoverClass {
    background: #DF2C45;
 }
 
+
+.mob-header-add { display:block; width:100%; padding:0; margin:0 auto;}
+.mob-header-add p span {display: inline-block; margin: 0px 0 0 24px;padding:0px 0 0px; font-size:14px; color:#666a6d; font-family: 'Calibri'; text-align:left; font-weight:normal; }
+.mob-header-add p i { color: #125687; font-size: 28px;position: absolute; top:43px;}
+.mob-header-add p { padding:5px 0 0;}
+
 .header-add { display:block; width:100%; padding:0; margin:0 auto;}
 .header-add p span {display: inline-block; margin: 0px 0 0 24px;padding:10px 0 10px; font-size:14px; color:#666a6d; font-family: 'Calibri'; text-align:left; font-weight:normal; }
 .header-add p i { color: #125687; font-size: 28px;position: absolute; top:50px;}
 .header-add p { padding:5px 0 0;}
 
 .header-cont  { display:block; width:100%; padding:0; margin:0 auto; float:right;}
-.header-cont p span {display: inline-block; margin: 0px 0 0 24px;padding:10px 0 10px; font-size:14px; color:#666a6d; font-family: 'Calibri'; text-align:left; font-weight:normal; }
+.header-cont p span {display: inline-block; margin: 0px 0 0 0px;padding:0px 0 0px; font-size:14px; color:#666a6d; font-family: 'Calibri'; text-align:left; font-weight:normal; }
 .header-cont p img { color: #125687; font-size: 28px;position: absolute; top:65px;}
 .header-cont p { padding:5px 0 0;}
 
 #imarker{top:164px;left:128px}
 #contact{margin-top:67px;}
 
+.menu-nav{margin-left: -83px;}
+
+.maddress{text-align: center;display:none}
+
+.social-div{padding-top: 13px;}
+
+@media (min-width: 992px)
+.col-md-offset-1 {
+    margin-left: 8.33333333%;
+}
 
 @media screen and (min-width:241px) and (max-width:600px){
      #jumbo {
@@ -244,12 +260,22 @@ a.socialIcon:hover, .socialHoverClass {
      #cor-3{color:blue;font-size: 8px;display:none}
      #imarker{top:200px;left:128px}
      #contact{margin-top:0px;}
-
+     #ocean-logo{display: none;}
+     #menu-nav{margin-left: -51px;}
+     #address{display:none;}
+     #maddress{display:block;}
+     #contact-div-row{padding:10px 25px 0 25px;border:1px dashed #ddd;padding:10px;position:relative;background:#f9f9f9;}
+     #social-div{padding-top: 0px;}
 
 }
 @media screen and (min-width:480px) and (max-width:650px){
      #imarker{top:150px;left:128px}
-
+     #ocean-logo{display: none;}
+     #menu-nav{margin-left: -51px;}
+     #address{display:none;}
+     #maddress{display:block;}
+     #contact-div-row{padding:10px 25px 0 25px;border:1px dashed #ddd;padding:10px;position:relative;background:#f9f9f9;}
+     #social-div{padding-top: 0px;}
 
 }
 
@@ -871,7 +897,7 @@ caption .btn-start {
 }
 
 #get_quote {
-	background:#FED829 url(../img/pattern_green.png) repeat;
+	background:yellow;
 	padding:30px 0;
 	color:#fff;
 }
@@ -883,9 +909,9 @@ caption .btn-start {
 }
 #get_quote h3{
 	color:#333;
-	margin:5px 0 0 0;
+	margin:8px 0 0 0;
 	font-family: 'Gochi Hand', cursive;
-	font-size:24px;
+	font-size:20px;
 }
 
 a.btn_quote{
@@ -895,7 +921,7 @@ a.btn_quote{
 	color:#fff;
 	background:none;
 	cursor: pointer;
-	padding: 7px 30px;
+	padding: 4px 27px;
 	display: inline-block;
 	outline: none;
 	font-size:14px;
@@ -1021,8 +1047,10 @@ footer ul{
 }
 
 #services {
-  background: #000 url(../img/bg_services.html);
+  background: url('../img/general/stuff-bg.jpg') 50% 100% repeat fixed;
   background-size: cover;
+  text-align: center;
+  color: white;
 }
 
 #services .lead,
@@ -1048,7 +1076,7 @@ footer ul{
 }
 
 /* Margin tools */
-.margin_60 {padding-top:60px; padding-bottom:60px;}
+.margin_60 {padding-top:0px; padding-bottom:60px;}
 .margin_60_35 {padding-top:60px; padding-bottom:35px;}
 .margin_30 {margin-top:30px; margin-bottom:30px;}
 
@@ -1273,4 +1301,18 @@ h4.special3{
 h4.special4{
   text-align: center;
   color: #F0711A;
+}
+
+
+#optin {
+	background: #3e4249;
+	padding: 20px 0;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-size: 1.2em;
+}
+
+#optin p {
+	margin: 7px 0 0 0;
 }

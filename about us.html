@@ -64,7 +64,9 @@ $( ".sharer button" ).click(function() {
           <nav id="navigation-div" class="navbar navbar-fixed-top"  style="background: #4267b2;border-top:0px solid rgba(209, 31, 0, 1);border-bottom:5px solid rgba(209, 31, 0, 1);" role="navigation">
               <div class="container">
                   <div class="row">
-                      <div class="col-md-2 col-sm-12"></div>
+                      <div class="col-md-2 col-sm-12">
+                          <a href="index.html">  <img id="ocean-logo"  class="img-responsive img-rounded" src="img/general/img1.png" alt="logo"></a>
+                      </div>
                       <div class="col-md-10 col-sm-12">
                           <button type="button" class="navbar-toggle collapsed" style="background: red" data-toggle="collapse" data-target="#menu"
                                   aria-expanded="false">
@@ -75,16 +77,19 @@ $( ".sharer button" ).click(function() {
                           </button>
                           <!-- Logo and responsive toggle -->
                           <div id="menu-button" class="navbar-header collapsed" style="background: #12578F" data-toggle="collapse" data-target="#menu" aria-expanded="false">
-
-                              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                            <div class="col-md-2 col-sm-12"></div>
+                            <div class="col-md-2 col-sm-12">
+                                <img  class="img-responsive img-rounded" src="img/general/Logo.PNG" alt="logo">
+                            </div>
+                            <!--  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
                                   <span class="sr-only">Toggle navigation</span>
                                   <span class="icon-bar"></span>
                                   <span class="icon-bar"></span>
                                   <span class="icon-bar"></span>
-                              </button>
+                              </button>-->
                           </div>
                           <div class="collapse navbar-collapse" id="menu">
-                              <ul class="nav navbar-nav">
+                              <ul id="menu-nav" class="nav navbar-nav menu-nav" >
                                   <li>
                                       <a href="index.html">HOME</a>
                                   </li>
@@ -109,8 +114,8 @@ $( ".sharer button" ).click(function() {
           </nav>
 
           <div id="contact-div" class="container-fluid" style="background-color:ghostwhite;">
-              <div class="row">
-                  <div class="col-sm-4" style="text-align: center">
+              <div id="contact-div-row" class="row">
+                  <div id="address" class="col-sm-4" style="text-align: center">
                       <div class="header-add">
                           <p><a href="https://maps.google.co.in/maps?t=m&f=d&saddr=Current+Location&daddr=Shop No 16, Silicon Residency Plot No 22 Roadpali Sector-20, Kalamboli, Navi Mumbai(Maharashtra)"><i class="fa fa-map-marker" aria-hidden="true"></i><span  style="color:black">
                                       Ocean Cool AC repair and installation Shop,<br/>
@@ -130,7 +135,7 @@ $( ".sharer button" ).click(function() {
                       </div>
                   </div>
                   <div class="col-md-4 text-center text-success">
-                      <div style="padding-top: 13px">
+                      <div id="social-div" class="social-div">
                           <ul class="social-network social-circle">
                               <li>
                                   <a class="icoDirection" title="dir" href="https://maps.google.co.in/maps?t=m&f=d&saddr=Current+Location&daddr=Shop No 16, Silicon Residency Plot No 22 Roadpali Sector-20, Kalamboli, Navi Mumbai(Maharashtra)">
@@ -157,12 +162,30 @@ $( ".sharer button" ).click(function() {
                               </li>
 
                           </ul>
+
+                          <div class="header-cont">
+                              <a class="phone" href="tel:+918689999954"> <p><span style="color:blue;font-size: 20px;">
+                                          <strong> Call Us Now +91-8689999954</strong></span></p></a>
+                          </div>
                       </div>
-                      <div class="header-cont">
-                          <a class="phone" href="tel:+918689999954"> <p><img src="img/general/phone.png"  aria-hidden="true"></img><span  style="color:blue;margin-left: 45px;margin-top: 5px;font-size: 20px;">
-                                      <strong> Call Us Now +91-8689999954</strong></span></p></a>
-                      </div>
+
                   </div>
+
+              </div>
+
+              <div class="row">
+                <div id="maddress" class="col-sm-4 maddress">
+                    <div class="mob-header-add">
+                        <p><a href="https://maps.google.co.in/maps?t=m&f=d&saddr=Current+Location&daddr=Shop No 16, Silicon Residency Plot No 22 Roadpali Sector-20, Kalamboli, Navi Mumbai(Maharashtra)"><i class="fa fa-map-marker" aria-hidden="true"></i><span  style="color:black">
+                                    Ocean Cool AC repair and installation Shop,<br/>
+                                    Shop No 16,Silicon Residency Plot No 22 Roadpali Sector-20,<br/>
+                                    Near Indian Bank, Kalamboli, Navi Mumbai(Maharashtra),
+                                    <br/> India 410218</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
               </div>
           </div>
       </header>
@@ -216,38 +239,37 @@ $( ".sharer button" ).click(function() {
         </div>
 
 
-                          <footer id="footer1">
-                                  <div class="container">
-                                    <div class="row ">
-                                      <div class="col-md-4 col-sm-6">
-                                        <img src="img/general/logo-footer.png" width="175" height="35" alt="" data-retina="true" id="logo_footer">
-                                        <p>Ocean Cool AC Services is the best Ac service providers in Home, Office and Corporate for last 10 years in Navi Mumbai</p>
-                                      </div>
-                                      <div class="col-md-3 col-sm-3" style="margin-left: 8.33333333%;">
-                                        <h3>Navigate To</h3>
-                                        <ul>
-                                          <li><a href="about us.html">About us</a></li>
-                                          <li><a href="contactus.html">Request Service</a></li>
-                                          <li><a href="services.html">AC Service &amp; Repair &amp; Installation</a></li>
-                                          <li><a href="contactus.html">Contacts</a></li>
-                                          <li><a href="index.html">Home</a></li>
-                                      </ul>
-                                      </div>
-                                      <div class="col-md-4 col-sm-3" id="contact_bg">
-                                        <h3>Cities</h3>
-                                        <ul>
-                                          <li><a href="index.html">Mumbai</a></li>
-                                          <li><a href="index.html">Navi Mumbai</a></li>
-                                          <li><a href="index.html">Panvel</a></li>
-                                          <li><a href="contactus.html">Contacts</a></li>
-                                      </ul>
-                                      <ul id="contact_details_footer">
-                                        <li id="phone_footer"><a href="tel://8689999954">+91-8689999954</a> / <a href="tel://8689999954">+91-8689999954</a></li>
-                                          <li id="email_footer"><a href="mailto:oceancoolacservice@gmail.com">oceancoolacservice@gmail.com</a></li>
-                                        </ul>
-                                      </div>
-                                    </div><!-- End row -->
-                                    <div id="social_footer">
+        <footer id="footer1">
+            <div class="container">
+              <div class="row ">
+                    <div class="col-md-4 col-sm-6">
+                        <a href="index.html">  <img class="img-responsive img-rounded" src="img/general/img1.png" alt="logo"></a>
+                        <p>Ocean Cool AC Services is the best Ac service providers in Home, Office and Corporate for last 10 years in Navi Mumbai</p>
+                    </div>
+                  <div class="col-md-3 col-md-offset-1 col-sm-3">
+                          <h3>Navigate To</h3>
+                          <ul>
+                              <li><a href="about us.html">About us</a></li>
+                              <li><a href="contactus.html">Request Service</a></li>
+                              <li><a href="services.html">AC Service &amp; Repair &amp; Installation</a></li>
+                              <li><a href="contactus.html">Contacts</a></li>
+                        </ul>
+                  </div>
+
+                 <div class="col-md-3 col-md-offset-1 col-sm-3" id="contact_bg">
+                          <h3>Cities</h3>
+                          <ul>
+                            <li><a href="index.html">Mumbai</a></li>
+                            <li><a href="index.html">Navi Mumbai</a></li>
+                            <li><a href="index.html">Panvel</a></li>
+                         </ul>
+                        <ul id="contact_details_footer">
+                           <li id="phone_footer"><a href="tel://8689999954">+91-8689999954</a> / <a href="tel://8689999954">+91-8689999954</a></li>
+                           <li id="email_footer"><a href="mailto:oceancoolacservice@gmail.com">oceancoolacservice@gmail.com</a></li>
+                        </ul>
+                </div>
+            </div><!-- End row -->
+            <div id="social_footer">
                                       <ul class="social-network social-circle">
                                           <li>
                                               <a class="icoDirection" title="dir" href="https://maps.google.co.in/maps?t=m&f=d&saddr=Current+Location&daddr=Shop No 16, Silicon Residency Plot No 22 Roadpali Sector-20 Near Indian bank, Kalamboli, Navi Mumbai(Maharashtra)">
@@ -275,14 +297,14 @@ $( ".sharer button" ).click(function() {
                                               <a class="phone" href="tel:+918689999954"><i class="fa fa-phone"></i></a>
                                           </li>
                                       </ul>
-                                    </div>
-                                  </div><!-- End container -->
+                  </div>
+              </div><!-- End container -->
                                   <div id="copy">
                                     <div class="container">
                                       Copyright &copy; rubypari09@gmail.com 2017
                                     </div>
                                   </div><!-- End copy -->
-                                </footer>
+        </footer>
 
   <script  src="js/index.js"></script>
     </body>
